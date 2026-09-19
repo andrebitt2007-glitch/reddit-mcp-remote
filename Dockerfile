@@ -2,7 +2,7 @@ FROM python:3.12-slim
 
 RUN pip install --no-cache-dir uv
 
-RUN uv pip install --system reddit-no-auth-mcp-server
+RUN uv pip install --system reddit-no-auth-mcp-server httpx
 
 EXPOSE 8000
 
